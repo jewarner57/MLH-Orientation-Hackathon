@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@100;400;700&display=swap');
 
 body {
+  font-family: 'Roboto', sans-serif;
   margin: 0;
 }
 
 .page-wrapper {
   padding: 0 100px;
-  height: 100vh;
   background-color: rgb(194, 194, 194);
   z-index: -1;
+  padding-bottom: 50px;
 }
 
 /* Hero Section */
@@ -26,12 +27,11 @@ body {
   position: relative;
   left: 0; top: 0;
   z-index: 1;
-  filter: blur(3px);
+  filter: blur(3px) brightness(70%);
 }
 
 .hero-content {
   width: 100%;
-  font-family: 'Roboto', sans-serif;
   z-index: 20;
   position: relative;
   left: 30px; top: -300px;
@@ -75,20 +75,83 @@ body {
   }
 }
 
+/* Post list section */
+.post-list-container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: auto;
+  font-family: Helvetica, Arial, sans-serif;
+  border-radius: 0 0 10px 10px;
+  background-color: rgb(255, 255, 255);
+  padding: 40px;
+}
+
+.post-list-title {
+  font-weight: 100;
+}
+
+.post-card {
+  border-bottom: 2px solid gray;
+  padding: 30px 0;
+}
+
+.post-card-title {
+  font-weight: 100;
+  font-size: 3em;
+  margin: 0;
+  transition: color 0.2s linear;
+  color: gray;
+}
+
+.post-card-subtitle, .post-card-subject {
+  color: gray !important;
+}
+
+.post-link {
+  text-decoration: none;
+  color: gray;
+}
+
+.post-link:hover h2 {
+  transition: all 0.2s linear;
+  color: black;
+}
+
+.author-link {
+  color: rgb(77, 77, 255);
+  text-decoration: none;
+}
+
+.author-link:hover {
+  color: rgb(77, 77, 255);
+  border-bottom: 1px solid rgb(77, 77, 255);
+}
+
 /* Blogpost Section */
-.post-container {
+.post {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 30px;
 }
 
-.post-body {
+.post-container {
   width: 100%;
   border-radius: 0 0 10px 10px;
   background-color: rgb(255, 255, 255);
 }
 
 .post-content {
-  padding: 50px;
+  padding: 20px 100px;
+}
+
+.post-content h1 {
+  font-size: 3em;
+  font-weight: 100;
+}
+
+.post-body {
+  font-size: 1.1em;
 }

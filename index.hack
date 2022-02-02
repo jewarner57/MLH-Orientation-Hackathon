@@ -21,13 +21,29 @@ function index(): void {
           <p class="hero-subtitle">By: Michelle Shen and Jonathan Warner</p>
         </div>
         </section>
-        <section class="post-container">
-          <div class="post-body">
-            <div class="post-content">
-              <h1>Post Title</h1>
-            <p>Topography</p>
+        <section class="post-list-container">
+            <div>
+              <h1 class="post-list-title">Latest Posts:</h1>
             </div>
-          </div>
+            <div class="post-list">
+
+              <div class="post-card">
+                <a href="/hack-post-1.hack" class="post-link">
+                  <p class="post-card-subject">Learning Hack</p>
+                  <h2 class="post-card-title">Post Title</h2>
+                  <p class="post-card-subtitle">By <a class="author-link" href="https://www.linkedin.com/">Username</a> on Feb 2, 2022</p>
+                </a>
+              </div>
+
+              <div class="post-card">
+                <a href="/hack-post-1.hack" class="post-link">
+                  <p class="post-card-subject">Learning Hack</p>
+                  <h2 class="post-card-title">Post Title</h2>
+                  <p class="post-card-subtitle">By <a class="author-link" href="https://www.linkedin.com/">Username</a> on Feb 2, 2022</p>
+                </a>
+              </div>
+
+            </div>
         </section>
       </div>
     </body>
