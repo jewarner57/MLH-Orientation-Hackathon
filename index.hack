@@ -1,4 +1,4 @@
 <<__EntryPoint>>
 function index(): void {
-  print("<h1>Hello World</h1>")
+  print("<h1>Hello World</h1>");
 }
