@@ -28,17 +28,25 @@ function index(): void {
             <div class="post-list">
 
               <div class="post-card">
-                <a href="/hack-post-1.hack" class="post-link">
+                <a href="/posts/post1.hack" class="post-link">
                   <p class="post-card-subject">Learning Hack</p>
-                  <h2 class="post-card-title">Post Title</h2>
+                  <h2 class="post-card-title">What is Hack?</h2>
                   <p class="post-card-subtitle">By <a class="author-link" href="https://www.linkedin.com/">Username</a> on Feb 2, 2022</p>
                 </a>
               </div>
 
               <div class="post-card">
-                <a href="/hack-post-1.hack" class="post-link">
+                <a href="/posts/post2.hack" class="post-link">
                   <p class="post-card-subject">Learning Hack</p>
-                  <h2 class="post-card-title">Post Title</h2>
+                  <h2 class="post-card-title">Hack: Hello World</h2>
+                  <p class="post-card-subtitle">By <a class="author-link" href="https://www.linkedin.com/">Username</a> on Feb 2, 2022</p>
+                </a>
+              </div>
+
+              <div class="post-card">
+                <a href="/posts/post3.hack" class="post-link">
+                  <p class="post-card-subject">Learning Hack</p>
+                  <h2 class="post-card-title">Hack: Literals</h2>
                   <p class="post-card-subtitle">By <a class="author-link" href="https://www.linkedin.com/">Username</a> on Feb 2, 2022</p>
                 </a>
               </div>

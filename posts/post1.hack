@@ -9,7 +9,7 @@ function index(): void {
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Hack and Ocaml Tutorials</title>
-      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="../styles.css">
     </head>
     <body>
       <div class="page-wrapper">
@@ -24,19 +24,11 @@ function index(): void {
         <section class="post">
           <div class="post-container">
             <div class="post-content">
-              <h1>Post Title </h1>
+              <span class="backarrow"><a href="/index.hack"><<<</a></span>
+              <h1>What is Hack?</h1>
               <div class="post-body">
-                <p>Typography Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
-tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
-quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
-sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
-recusandae alias error harum maxime adipisci amet laborum. Perspiciatis 
-minima nesciunt dolorem! Officiis iure rerum voluptates a cumque velit </p>
+               
+<p>Hack is a gradual typing language allowing for both dynamic and static typing. It notably provides instantaneous type checking and was built specifically for the HHVM (Hip Hop Virtual Machine), which is a high performance runtime created by Facebook. It was first introduced on March 20th, 2014, and is written in primarily C++ and OCaml. For more information on the language, visit the <a href = “https://hacklang.org/“>docs</a>!</p>
               </div>
             </div>
           </div>

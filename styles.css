@@ -100,7 +100,7 @@ body {
   font-size: 3em;
   margin: 0;
   transition: color 0.2s linear;
-  color: gray;
+  color: black;
 }
 
 .post-card-subtitle, .post-card-subject {
@@ -154,4 +154,9 @@ body {
 
 .post-body {
   font-size: 1.1em;
+}
+
+.backarrow {
+  width: 50px;
+  font-size: 1.5em;
 }
