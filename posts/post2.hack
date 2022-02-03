@@ -8,7 +8,7 @@ function index(): void {
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Hack and Ocaml Tutorials</title>
+      <title>Hack and OCaml Tutorials</title>
       <link rel="stylesheet" href="../styles.css">
     </head>
     <body>
@@ -17,7 +17,7 @@ function index(): void {
         <div class="hero-img"></div>
         <div class="hero-content">
           <p class="hero-subject">MLH Orientation Hackathon</p>
-          <h1 class="hero-title">Hack and Ocaml Tutorials</h1>
+          <h1 class="hero-title">Hack and OCaml Tutorials</h1>
           <p class="hero-subtitle">By: Michelle Shen and Jonathan Warner</p>
         </div>
         </section>
@@ -48,5 +48,6 @@ function index(): void {
       </div>
     </body>
     </html>
-  ');
+  '
+  );
 }

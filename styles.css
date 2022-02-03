@@ -114,7 +114,7 @@ body {
 
 .post-link:hover h2 {
   transition: all 0.2s linear;
-  color: black;
+  color: gray;
 }
 
 .author-link {
@@ -150,6 +150,7 @@ body {
 .post-content h1 {
   font-size: 3em;
   font-weight: 100;
+  line-height: 60px;
 }
 
 .post-body {
@@ -159,4 +160,18 @@ body {
 .backarrow {
   width: 50px;
   font-size: 1.5em;
+}
+
+.backarrow a {
+  transition: background-color 0.2s linear;
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  background-color: rgb(223, 223, 223);
+  border-radius: 5px;
+}
+
+.backarrow:hover a {
+  transition: all 0.2s linear;
+  background-color: rgb(194, 194, 194);
 }

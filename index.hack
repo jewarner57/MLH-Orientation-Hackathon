@@ -8,7 +8,7 @@ function index(): void {
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Hack and Ocaml Tutorials</title>
+      <title>Hack and OCaml Tutorials</title>
       <link rel="stylesheet" href="styles.css">
     </head>
     <body>
@@ -17,7 +17,7 @@ function index(): void {
         <div class="hero-img"></div>
         <div class="hero-content">
           <p class="hero-subject">MLH Orientation Hackathon</p>
-          <h1 class="hero-title">Hack and Ocaml Tutorials</h1>
+          <h1 class="hero-title">Hack and OCaml Tutorials</h1>
           <p class="hero-subtitle">By: Michelle Shen and Jonathan Warner</p>
         </div>
         </section>
@@ -51,10 +51,27 @@ function index(): void {
                 </a>
               </div>
 
+              <div class="post-card">
+                <a href="/posts/post4.hack" class="post-link">
+                  <p class="post-card-subject">Learning OCaml</p>
+                  <h2 class="post-card-title">What is OCaml?</h2>
+                  <p class="post-card-subtitle">By <a class="author-link" href="https://www.linkedin.com/in/jonathan-warner-2a5179168/">Jonathan Warner</a> on Feb 3, 2022</p>
+                </a>
+              </div>
+
+              <div class="post-card">
+                <a href="/posts/post5.hack" class="post-link">
+                  <p class="post-card-subject">Learning OCaml</p>
+                  <h2 class="post-card-title">Getting Started With OCaml</h2>
+                  <p class="post-card-subtitle">By <a class="author-link" href="https://www.linkedin.com/in/jonathan-warner-2a5179168/">Jonathan Warner</a> on Feb 3, 2022</p>
+                </a>
+              </div>
+
             </div>
         </section>
       </div>
     </body>
     </html>
-  ');
+  '
+  );
 }

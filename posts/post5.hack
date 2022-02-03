@@ -25,10 +25,11 @@ function index(): void {
           <div class="post-container">
             <div class="post-content">
               <span class="backarrow"><a href="/index.hack"><<<</a></span>
-              <h1>What is Hack?</h1>
+              <h1>Getting Started With OCaml</h1>
               <div class="post-body">
-               
-<p>Hack is a gradual typing language allowing for both dynamic and static typing. It notably provides instantaneous type checking and was built specifically for the HHVM (Hip Hop Virtual Machine), which is a high performance runtime created by Facebook. It was first introduced on March 20th, 2014, and is written in primarily C++ and OCaml. For more information on the language, visit the <a href = “https://hacklang.org/“>docs</a>!</p>
+                <p>A good place to start when learning OCaml is with the book <a href="https://dev.realworldocaml.org/toc.html">Real World OCaml</a>.
+                Originally published in 2013, the book can now be found online for free.</p>
+                
               </div>
             </div>
           </div>

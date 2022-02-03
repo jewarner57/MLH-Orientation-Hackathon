@@ -25,10 +25,19 @@ function index(): void {
           <div class="post-container">
             <div class="post-content">
               <span class="backarrow"><a href="/index.hack"><<<</a></span>
-              <h1>What is Hack?</h1>
+              <h1>What is OCaml?</h1>
               <div class="post-body">
-               
-<p>Hack is a gradual typing language allowing for both dynamic and static typing. It notably provides instantaneous type checking and was built specifically for the HHVM (Hip Hop Virtual Machine), which is a high performance runtime created by Facebook. It was first introduced on March 20th, 2014, and is written in primarily C++ and OCaml. For more information on the language, visit the <a href = “https://hacklang.org/“>docs</a>!</p>
+                <p>OCaml is a general purpose programming language created in 1996 by a group of developers at INRIA in France. 
+                OCaml can support both functional and object-oriented programming paradigms but lends itself better to 
+                functional use. Some features of Ocaml are its advanced type system, pattern matching, and garbage collection.</p>
+
+                <p>OCaml is still widely used although its popularity continues to decline. Some companies that currently use OCaml 
+                are Facebook, Bloomberg, and Docker.</p>
+
+                <p>You can learn more about OCaml at <a href="https://ocaml.org/manual/index.html#sec6" target="_blank">Ocaml.org</a></p>
+
+
+
               </div>
             </div>
           </div>
