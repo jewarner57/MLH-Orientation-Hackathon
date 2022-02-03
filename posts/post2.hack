@@ -40,7 +40,7 @@ function index(): void {
                 </p>
                 <p><code>&lt&lt__EntryPoint&gt&gt</code> lets the compiler know the following function is the one to run upon execution of the program. It does not need to be named main! Notice it is denoted with noreturn, indicating the function returns nothing. We then quit out of the program with <code>exit(0)</code>, indicating a success. </p>
                 <p>Now run <code>hh_client index.hack</code> in your terminal. This runs the type checker to make siure there are not any problems. </p>
-                <p>Run <code>hhvm -m server -p 8080</code> to start your server and visit http://localhost:8080/index.hh to see the result!</p>
+                <p>Run <code>hhvm -m server -p 8080</code> to start your server and visit <a href = "http://localhost:8080/index.hh">http://localhost:8080/index.hack</a> to see the result!</p>
               </div>
             </div>
           </div>

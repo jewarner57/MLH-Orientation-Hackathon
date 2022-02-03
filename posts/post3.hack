@@ -28,12 +28,12 @@ function index(): void {
               <h1>Hack: Literals</h1>
               <div class="post-body">
                 <p>Every language has literals.</p>
-                <p>In hack, booleans are expressed as <code>true</code> and <code>false</code>.</p>
+                <p>In Hack, booleans are expressed as <code>true</code> and <code>false</code>.</p>
                 <pre>
                     $val = true;
                     if ($val === false) ...
                 </pre>
-                <p>Integers can be expressed as decimal, with hexadecimal dednoted with <code>0x</code>, octal with <code>0</code>, and binary with <code>0b</code>. The type of an integer literal is an <code>int</code>.</p>
+                <p>Integers can be expressed as decimals, with hexadecimal denoted with <code>0x</code>, octal with <code>0</code>, and binary with <code>0b</code>. The type of an integer literal is an <code>int</code>.</p>
                 <pre>
                     $count = 10
                     0b1010 >> 4
@@ -44,7 +44,7 @@ function index(): void {
                     $decimal = 123.456
                     $exponent = 0.6E27
                 </pre>
-                <p>In hack, strings can be denoted with single or double quotes. Quotes and backslashes can be escaped with a backslash.</p>
+                <p>In Hack, strings can be denoted with single or double quotes. Quotes and backslashes can be escaped with a backslash.</p>
                 <pre>
                     \'singlequotes\'
                     "doublequotes"
